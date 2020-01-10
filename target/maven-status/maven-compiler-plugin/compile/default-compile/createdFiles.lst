@@ -1,0 +1,5 @@
+com\tavisca\affinionds\utils\JsonToAvroConverter.class
+com\tavisca\affinionds\utils\MessageInput.class
+com\tavisca\affinionds\AvroSerializerDemo.class
+com\tavisca\affinionds\configurations\KafkaConfiguration.class
+com\tavisca\affinionds\constants\KafkaConstants.class
