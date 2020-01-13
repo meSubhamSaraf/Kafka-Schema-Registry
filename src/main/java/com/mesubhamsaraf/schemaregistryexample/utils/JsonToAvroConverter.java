@@ -1,4 +1,4 @@
-package com.tavisca.affinionds.utils;
+package com.mesubhamsaraf.schemaregistryexample.utils;
 
 import org.apache.avro.Schema;
 import org.apache.avro.generic.GenericData;

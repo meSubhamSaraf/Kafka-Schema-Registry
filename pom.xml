@@ -16,8 +16,8 @@
     </build>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.tavisca.affinionds</groupId>
-    <artifactId>Kafka-Schema-Rigistry</artifactId>
+    <groupId>com.mesubhamsaraf.schemaregistryexample</groupId>
+    <artifactId>Kafka-Schema-Rigistry-Demo</artifactId>
     <version>1.0</version>
     <repositories>
         <repository>
