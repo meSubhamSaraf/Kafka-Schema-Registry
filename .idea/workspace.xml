@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9911235-7447-4e53-a3fd-1801e5685a0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesubhamsaraf/schemaregistryexample/constants/KafkaConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesubhamsaraf/kafka/twitter/poc/Twitter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mesubhamsaraf/kafka/twitter/poc/TwitterProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kafka-Schema-Rigistry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Kafka-Schema-Rigistry-Demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/affinionds/AvroSerializerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesubhamsaraf/schemaregistryexample/AvroSerializerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/affinionds/configurations/KafkaConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesubhamsaraf/schemaregistryexample/configurations/KafkaConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/affinionds/constants/KafkaConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/affinionds/utils/JsonToAvroConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesubhamsaraf/schemaregistryexample/utils/JsonToAvroConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tavisca/affinionds/utils/MessageInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mesubhamsaraf/schemaregistryexample/utils/MessageInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messageInput.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messageInput.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Kafka-Schema-Rigistry-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Kafka-Schema-Rigistry.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tavisca/affinionds/AvroSerializerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tavisca/affinionds/configurations/KafkaConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tavisca/affinionds/constants/KafkaConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tavisca/affinionds/utils/JsonToAvroConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/tavisca/affinionds/utils/MessageInput.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +45,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.AvroSerializerDemo">
+  <component name="RunManager" selected="Application.TwitterProducer">
     <configuration name="Avro" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.github.meSubhamSaraf.AvroSerializerDemo" />
       <module name="Kafka-Schema-Rigistry-Demo" />
@@ -103,49 +85,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="TwitterProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mesubhamsaraf.kafka.twitter.poc.TwitterProducer" />
       <module name="Kafka-Schema-Rigistry-Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Kafka-Schema-Rigistry-Demo" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mesubhamsaraf.kafka.twitter.poc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,7 +101,13 @@
     <list>
       <item itemvalue="Application.AvroSerializerDemo" />
       <item itemvalue="Application.Avro" />
+      <item itemvalue="Application.TwitterProducer" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TwitterProducer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -197,46 +151,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="226" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1577180526539" />
-    <state width="458" height="438" key="DebuggerActiveHint" timestamp="1578645806125">
+    <state width="458" height="438" key="DebuggerActiveHint" timestamp="1580282373276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="458" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1578645806125" />
+    <state width="458" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1580282373276" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1578656317659">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578656317659" />
-    <state width="1323" height="209" key="GridCell.Tab.0.bottom" timestamp="1578894781146">
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom" timestamp="1580364284931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578894781146" />
-    <state width="1323" height="209" key="GridCell.Tab.0.center" timestamp="1578894781146">
+    <state width="1323" height="222" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580364284931" />
+    <state width="1323" height="222" key="GridCell.Tab.0.center" timestamp="1580364284931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578894781146" />
-    <state width="1323" height="209" key="GridCell.Tab.0.left" timestamp="1578894781146">
+    <state width="1323" height="222" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1580364284931" />
+    <state width="1323" height="222" key="GridCell.Tab.0.left" timestamp="1580364284931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578894781146" />
-    <state width="1323" height="209" key="GridCell.Tab.0.right" timestamp="1578894781146">
+    <state width="1323" height="222" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1580364284931" />
+    <state width="1323" height="222" key="GridCell.Tab.0.right" timestamp="1580364284931">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578894781146" />
-    <state width="1323" height="209" key="GridCell.Tab.1.bottom" timestamp="1578894781829">
+    <state width="1323" height="222" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1580364284931" />
+    <state width="1323" height="209" key="GridCell.Tab.1.bottom" timestamp="1580283171076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578894781829" />
-    <state width="1323" height="209" key="GridCell.Tab.1.center" timestamp="1578894781829">
+    <state width="1323" height="209" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1580283171076" />
+    <state width="1323" height="209" key="GridCell.Tab.1.center" timestamp="1580283171076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578894781829" />
-    <state width="1323" height="209" key="GridCell.Tab.1.left" timestamp="1578894781829">
+    <state width="1323" height="209" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1580283171076" />
+    <state width="1323" height="209" key="GridCell.Tab.1.left" timestamp="1580283171076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578894781829" />
-    <state width="1323" height="209" key="GridCell.Tab.1.right" timestamp="1578894781829">
+    <state width="1323" height="209" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1580283171076" />
+    <state width="1323" height="209" key="GridCell.Tab.1.right" timestamp="1580283171076">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="209" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578894781829" />
+    <state width="1323" height="209" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1580283171076" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1578645075495">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -245,10 +199,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="322" y="0" width="916" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577257923429" />
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1577688513531">
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1580364849014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577688513531" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1580364849014" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1577180695256">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -257,14 +211,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="60" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1578461279284" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1578643799115">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1580210769007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1578643799115" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1578645241165">
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580210769007" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1580280250701">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578645241165" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1580280250701" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -278,6 +232,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/mesubhamsaraf/schemaregistryexample/AvroSerializerDemo.java</url>
           <line>18</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mesubhamsaraf/kafka/twitter/poc/TwitterProducer.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mesubhamsaraf/kafka/twitter/poc/Twitter.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
